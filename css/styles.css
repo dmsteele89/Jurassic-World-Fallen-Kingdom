@@ -58,13 +58,16 @@ HEADER
 h1 {
   font-family: JurassicPark;
   font-size: 6em;
-  color: white;
+  color: lightgrey;
   font-weight: normal;
   text-align: center;
 }
 
 h5 {
   color: white;
+  font-weight: normal;
+  font-family: 'Kanit', sans-serif;
+  padding: 1.3em;
 }
 
 .word3, .word4 {
@@ -102,6 +105,7 @@ main section {
 FOOTER
 ************/
 footer {
+  font-family: 'Kanit', sans-serif;
   text-align: center;
   color: white;
 }
