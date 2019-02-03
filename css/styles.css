@@ -57,10 +57,12 @@ HEADER
 /* Your Styles */
 h1 {
   font-family: JurassicPark;
-  font-size: 6em;
+  font-size: 7.9em;
   color: lightgrey;
   font-weight: normal;
   text-align: center;
+  margin-top: -.2vh;
+  margin-bottom: -.5vh;
 }
 
 h5 {
