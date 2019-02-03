@@ -1,13 +1,16 @@
+@font-face {
+  font-family: JurassicPark;
+  src: url(/fonts/Jurassic_Park.ttf);
+}
+
 /*
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background-image: url("https://wallpapercave.com/wp/wp2668809.jpg");
+  background-size: cover;
 }
 
-* {
-  outline: 1px dotted black;
-}
 
 /************
 LAYOUT
@@ -30,12 +33,21 @@ footer {
   grid-column: 1 / span 5;
 }
 
+h5 {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 main {
   grid-column: 1 / span 3;
 }
 
 aside {
   grid-column: span 2;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -43,6 +55,21 @@ aside {
 HEADER
 ************/
 /* Your Styles */
+h1 {
+  font-family: JurassicPark;
+  font-size: 6em;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+}
+
+.word3, .word4 {
+  color: orangered;
+}
 
 
 /************
@@ -55,11 +82,11 @@ video {
 
 .mejs__currenttime, 
 .mejs__duration {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .mejs__time-current {
-  background: tomato;
+  background: orangered;
 }
 
 /************
@@ -76,6 +103,7 @@ FOOTER
 ************/
 footer {
   text-align: center;
+  color: white;
 }
 
 /************
