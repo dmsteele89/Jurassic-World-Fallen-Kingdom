@@ -98,17 +98,28 @@ video {
 ASIDE
 ************/
 aside {
-  padding: 1.3em;
+  padding: .5em;
+}
+
+aside p {
   color: lightgray;
   font-family: JurassicPark;
-  font-size: 2.5em;
+  font-size: 3em;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: orangered;
-  font-size: .4em;
+  font-size: 1.3em;
   font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /************
@@ -121,6 +132,13 @@ main section {
   font-family: 'Kanit', sans-serif;
   color: lightgray;
   text-align: center;
+}
+
+img {
+  width: 125px;
+  height: 200px;
+  object-fit: cover;
+  vertical-align: bottom;
 }
 
 /************
