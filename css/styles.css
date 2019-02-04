@@ -1,7 +1,10 @@
-@font-face {
-  font-family: JurassicPark;
-  src: url(/fonts/Jurassic_Park.ttf);
-}
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+ @font-face {
+   font-family:"Jurassic Park";src:url("Jurassic_Park.eot?") format("eot"),url("Jurassic_Park.woff") format("woff"),url("Jurassic_Park.ttf") format("truetype"),url("Jurassic_Park.svg#") format("svg");
+   font-weight:normal;
+   font-style:normal;
+  }
+
 
 /*
   DIAGNOSTIC STYLING
@@ -56,7 +59,7 @@ HEADER
 ************/
 /* Your Styles */
 h1 {
-  font-family: JurassicPark;
+  font-family: 'Jurassic Park';
   font-size: 7.9em;
   color: lightgrey;
   font-weight: normal;
@@ -103,7 +106,7 @@ aside {
 
 aside p {
   color: lightgray;
-  font-family: JurassicPark;
+  font-family: 'Jurassic Park';
   font-size: 3em;
   text-align: center;
 }
